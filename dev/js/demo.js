@@ -1,6 +1,10 @@
+console.log("demo");
+
 import {
     gsap
 } from "gsap";
+
+console.log(gsap);
 
 
 //TweenMax.to(".red-box",2,{x: 500, borderRadius: "50px" });
