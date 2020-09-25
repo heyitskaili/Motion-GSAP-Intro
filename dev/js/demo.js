@@ -7,37 +7,33 @@ import {
 console.log(gsap);
 
 
-//TweenMax.to(".red-box",2,{x: 500, borderRadius: "50px" });
-//TweenLite.to(".red-box",2,{x: 500, borderRadius: "50px" });
 
-var redSpeed = 2;
-var blueSpeed = 1.5;
+var heartSpeed = 0.7;
+
+var starTimeline = gsap.timeline({repeat: -1});
+
+starTimeline.to(".heart", {
+    duration: heartSpeed,
+    color: "#ffa500",
+    x: 20,
+    borderRadius: "100px"});
+
+starTimeline.to(".heart", {
+    duration: heartSpeed,
+    color: "#973999",
+    y: 20,
+    borderRadius: "100px"});
+
+starTimeline.to(".heart", {
+    duration: heartSpeed,
+    color: "#009CDF",
+    x: -5,
+    borderRadius: "100px"});
+
+starTimeline.to(".heart", {
+    duration: heartSpeed,
+    color: "#5EBD3E",
+    y: -1,
+    borderRadius: "100px"});
 
 
-// gsap call / what do you want to animate / how long should it animate / what should change?
-gsap.to(".red-box", {
-    duration: redSpeed,
-    x: 500,
-    borderRadius: "50px"
-});
-
-gsap.to(".red-box", {
-    duration: redSpeed,
-    y: 500,
-    borderRadius: "100px",
-    delay: redSpeed
-});
-
-gsap.from(".blue-box", {
-    duration: blueSpeed,
-    x: 300,
-    y: 300,
-    borderRadius: "50px"
-});
-
-gsap.to(".blue-box", {
-    duration: blueSpeed,
-    y: 100,
-    borderRadius: "200px",
-    delay: blueSpeed
-});

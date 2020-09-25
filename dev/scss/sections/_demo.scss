@@ -1,17 +1,32 @@
-/* =============
-    Demo
-============= */
 
-.box{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 300px;
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #1a1a1d;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    padding-top: 120px;
+    
+  }
+  
+  .heart-box{
+    background: #ffcdc7;
+    padding-top: 10em;
+    padding-bottom: 10em;
+
 }
 
-.red-box{
-    background-color: $red;
+h1{
+    font-size: 3em;
+    padding-bottom: 1px;
+    
 }
 
-.blue-box{
-    background-color: $blue;
+.heart{
+    font-size: 2em;
+    color: #5e081e;
 }
+
+  
