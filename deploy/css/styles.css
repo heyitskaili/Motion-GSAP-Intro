@@ -385,7 +385,7 @@ body {
   text-align: center;
   padding-top: 120px; }
 
-.heart-box {
+.box {
   background: #ffcdc7;
   padding-top: 10em;
   padding-bottom: 10em; }
@@ -394,6 +394,17 @@ h1 {
   font-size: 3em;
   padding-bottom: 1px; }
 
-.heart {
-  font-size: 2em;
-  color: #5e081e; }
+.shapes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px; }
+  .shapes .heart {
+    font-size: 2em;
+    color: #5e081e; }
+  .shapes .flower {
+    font-size: 2em;
+    color: #5e081e; }
+  .shapes .star {
+    font-size: 2em;
+    color: #5e081e; }

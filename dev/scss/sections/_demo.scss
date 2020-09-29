@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Oswald', sans-serif;
     background: #1a1a1d;
@@ -8,25 +6,40 @@ body {
     padding: 10px;
     text-align: center;
     padding-top: 120px;
-    
-  }
-  
-  .heart-box{
+
+}
+
+.box {
     background: #ffcdc7;
     padding-top: 10em;
     padding-bottom: 10em;
 
 }
 
-h1{
+h1 {
     font-size: 3em;
     padding-bottom: 1px;
-    
+
 }
 
-.heart{
-    font-size: 2em;
-    color: #5e081e;
-}
+.shapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
 
-  
+    .heart {
+        font-size: 2em;
+        color: #5e081e;
+    }
+
+    .flower {
+        font-size: 2em;
+        color: #5e081e;
+    }
+
+    .star {
+        font-size: 2em;
+        color: #5e081e;
+    }
+}
